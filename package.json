@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "A github api provider",
   "main": "index.js",
+  "bin": {
+    "githubber": "bin/githubber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teomurgi/githubber.git"
+  },
   "scripts": {
     "test": "mocha --recursive test"
   },
