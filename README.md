@@ -6,6 +6,7 @@ present them in a simple form to the user.
 * [Installation](#install)
 * [Usage](#usage)
 * [API](#api)
+* [Authentication](#authentication)
 * [License](#license)
 
 ## Install
@@ -71,6 +72,15 @@ Such query must be complieant with the [github query format](https://help.github
 curl --header "apikey:<YOUR_APIKEY>" http://<HOSTNAME>:3000/repos/search/<YOUR_QUERY>
 
 ```
+
+## Authentication
+
+The authentication that has been implemented is very simple.
+It has several weaknesses:
+* The keys are stored unencrypted on the filesystem
+* Now githubber supports only http, thus the apikeys travel not encrypted, so anyone can steal them
+* They do not get renewed automatically, this is unsecure too
+
 
 ## License
 
