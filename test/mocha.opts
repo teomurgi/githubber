@@ -1,0 +1,5 @@
+--reporter spec
+--require test/common
+--colors
+--check-leaks
+--timeout 5000

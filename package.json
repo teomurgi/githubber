@@ -1,0 +1,19 @@
+{
+  "name": "githubber",
+  "version": "1.0.0",
+  "description": "A github api provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "author": "Matteo Murgida",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
