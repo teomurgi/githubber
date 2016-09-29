@@ -1,6 +1,6 @@
 # githubber
 
-An HTTP API able to retrieve information about github repositories, and to
+A Restful API able to retrieve information about github repositories, and to
 present them in a simple form to the user.
 
 * [Installation](#install)
