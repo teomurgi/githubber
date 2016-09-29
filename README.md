@@ -11,7 +11,7 @@ present them in a simple form to the user.
 ## Install
 
 ```
-git clone
+git clone https://github.com/teomurgi/githubber.git
 cd githubber
 npm i
 ```
